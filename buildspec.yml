@@ -1,0 +1,26 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo Installing dependencies...
+
+  pre_build:
+    commands:
+      - echo Running pre-build steps...
+
+  build:
+    commands:
+      - echo Building the application...
+
+  post_build:
+    commands:
+      - echo Post-build steps...
+
+
+artifacts:
+  files:
+    - 'index.html'
+    - 'styles.css'
+    - 'script.js'
+  
